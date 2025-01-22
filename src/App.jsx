@@ -42,6 +42,7 @@ function App() {
                 <input
                     type="text"
                     placeholder="이름"
+                    value={userName}
                     onChange={(e) => {
                         setUserName(e.target.value);
                     }}
@@ -49,6 +50,7 @@ function App() {
                 <input
                     type="number"
                     placeholder="나이"
+                    value={userAge}
                     onChange={(e) => {
                         setUserAge(e.target.value);
                     }}
